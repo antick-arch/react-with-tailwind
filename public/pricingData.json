@@ -17,6 +17,7 @@
       "plan": "Standard",
       "price": "$35",
       "billing_cycle": "monthly",
+      "most_popular":true,
       "features": [
         "Full gym access",
         "Locker & shower facility",

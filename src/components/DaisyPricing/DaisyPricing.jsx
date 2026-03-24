@@ -9,7 +9,9 @@ const DaisyPricing = ({ pricingPromise }) => {
                 pricingData.map(pricingInfo => (
                     < div key={pricingInfo.id} className="card w-96 bg-base-100 shadow-sm flex flex-col" >
                         <div className="card-body">
-                            <span className="badge badge-xs badge-warning">Most Popular</span>
+                            {
+                                pricingInfo.most_popular && <span className="badge badge-xs badge-warning">Most Popular</span>
+                            }
                             <div className="flex justify-between">
                                 <h2 className="text-3xl font-bold">{pricingInfo.plan}</h2>
                                 <span className="text-xl">{pricingInfo.price}/{pricingInfo.billing_cycle}</span>
