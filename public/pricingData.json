@@ -1,0 +1,43 @@
+{
+  "gym_pricing": [
+    {
+      "id": 1,
+      "plan": "Basic",
+      "price": "$20",
+      "billing_cycle": "monthly",
+      "features": [
+        "Access to gym equipment",
+        "Locker facility",
+        "1 group class per week"
+      ],
+      "popular": false
+    },
+    {
+      "id": 2,
+      "plan": "Standard",
+      "price": "$35",
+      "billing_cycle": "monthly",
+      "features": [
+        "Full gym access",
+        "Locker & shower facility",
+        "Unlimited group classes",
+        "Free diet plan"
+      ],
+      "popular": true
+    },
+    {
+      "id": 3,
+      "plan": "Premium",
+      "price": "$60",
+      "billing_cycle": "monthly",
+      "features": [
+        "24/7 gym access",
+        "Personal trainer",
+        "Customized workout & diet plan",
+        "Sauna & steam room",
+        "Priority support"
+      ],
+      "popular": false
+    }
+  ]
+}
